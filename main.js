@@ -16,6 +16,13 @@ if(video.muted){
 	video.muted = true;
 	video.play()
 }
+if(video.playsinline==false){
+	video.playsinline = true;
+} else {
+	debugger;
+	video.muted = false;
+	video.play()
+}
   
 for (var i = 0; i < uno.length; i++) {
 	uno[i].style.zIndex = customZindex;
