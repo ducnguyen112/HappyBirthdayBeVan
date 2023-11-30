@@ -19,6 +19,7 @@ function toggleMute() {
 	}
   
   }
+
 for (var i = 0; i < uno.length; i++) {
 	uno[i].style.zIndex = customZindex;
 	customZindex--;
