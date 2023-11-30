@@ -6,20 +6,17 @@ var portada = document.querySelectorAll('#portada');
 
 var contZindex = 2;
 var customZindex = 1;
-function toggleMute() {
 
-	var video=document.getElementById("myVideo");
-  
-	if(video.muted){
-	  video.muted = false;
-	} else {
-	  debugger;
-	  video.muted = true;
-	  video.play()
-	}
-  
-  }
+var video=document.getElementById("myVideo");
 
+if(video.muted){
+	video.muted = false;
+} else {
+	debugger;
+	video.muted = true;
+	video.play()
+}
+  
 for (var i = 0; i < uno.length; i++) {
 	uno[i].style.zIndex = customZindex;
 	customZindex--;
