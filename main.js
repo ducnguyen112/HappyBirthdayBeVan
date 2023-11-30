@@ -19,10 +19,6 @@ function toggleMute() {
 	}
   
   }
-  
-  $(document).ready(function(){
-	setTimeout(toggleMute,3000);
-})
 for (var i = 0; i < uno.length; i++) {
 	uno[i].style.zIndex = customZindex;
 	customZindex--;
